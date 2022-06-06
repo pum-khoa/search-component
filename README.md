@@ -1,4 +1,4 @@
-# Search something you want
+# Search Hits
 
 ![image](https://user-images.githubusercontent.com/104960618/172115144-f6e2ab2e-ad85-4459-8d34-b5ef028addcc.png)
 
