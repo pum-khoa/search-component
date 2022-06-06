@@ -1,0 +1,11 @@
+.search-field-wrapper input {
+    height: 45px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0 1rem;
+}
+
+.search-field-wrapper input:focus {
+    border-color: cornflowerblue;
+}
