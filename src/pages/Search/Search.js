@@ -33,7 +33,7 @@ const Search = () => {
 
   return (
     <div className="search-wrapper">
-      <h1>Search for Hits</h1>
+      <h1 data-testid="titleSearchHit">Search for Hits</h1>
       <SearchField
         className="search-input"
         placeholder="State debugger for React apps"

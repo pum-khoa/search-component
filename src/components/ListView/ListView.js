@@ -4,7 +4,7 @@ const ListView = (props) => {
   const { data } = props;
   if (data.length > 0)
     return (
-      <ol {...props}>
+      <ol {...props} data-testid="listSearchHit">
         {data.map((item, index) => {
           if (item.title)
             return (
@@ -16,7 +16,7 @@ const ListView = (props) => {
         })}
       </ol>
     );
-  else return <p className="no-data">No data</p>;
+  else return <p className="no-data" data-testid="listNoDataSearchHit">No data</p>;
 };
 
 export default ListView;
